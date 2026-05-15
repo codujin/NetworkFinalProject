@@ -662,7 +662,7 @@
                 "symbol": ":/symbols/classic/router.svg",
                 "template_id": "c4c4595d-74e8-4149-8c3c-bdc137e766b9",
                 "width": 66,
-                "x": -409,
+                "x": -419,
                 "y": 27,
                 "z": 1
             },
@@ -732,8 +732,8 @@
                 "symbol": ":/symbols/classic/router.svg",
                 "template_id": "c4c4595d-74e8-4149-8c3c-bdc137e766b9",
                 "width": 66,
-                "x": -269,
-                "y": -111,
+                "x": -266,
+                "y": -88,
                 "z": 1
             },
             {
@@ -802,8 +802,8 @@
                 "symbol": ":/symbols/classic/router.svg",
                 "template_id": "c4c4595d-74e8-4149-8c3c-bdc137e766b9",
                 "width": 66,
-                "x": 261,
-                "y": -96,
+                "x": 262,
+                "y": -81,
                 "z": 1
             },
             {
@@ -872,8 +872,8 @@
                 "symbol": ":/symbols/classic/router.svg",
                 "template_id": "c4c4595d-74e8-4149-8c3c-bdc137e766b9",
                 "width": 66,
-                "x": -54,
-                "y": 36,
+                "x": -68,
+                "y": 40,
                 "z": 1
             },
             {
@@ -1395,8 +1395,8 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": 175,
-                "y": 238,
+                "x": 178,
+                "y": 239,
                 "z": 1
             },
             {
@@ -1424,8 +1424,8 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": 337,
-                "y": 246,
+                "x": 368,
+                "y": 244,
                 "z": 1
             },
             {
@@ -1504,8 +1504,94 @@
                 "symbol": ":/symbols/ethernet_switch.svg",
                 "template_id": "1966b864-93e7-32d5-965f-001384eec461",
                 "width": 72,
-                "x": 23,
-                "y": -211,
+                "x": 10,
+                "y": -219,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": null,
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 71,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "\u0633\u062d\u0627\u0628",
+                    "x": 56,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "\u0633\u062d\u0627\u0628",
+                "node_id": "efc1766e-4d8e-44b2-89ad-240508f1bc60",
+                "node_type": "cloud",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "interfaces": [
+                        {
+                            "name": "br-02f23a416c51",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "br0",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "docker0",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "enp7s0",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "lo",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "virbr0",
+                            "special": true,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "ports_mapping": [
+                        {
+                            "interface": "br-02f23a416c51",
+                            "name": "br-02f23a416c51",
+                            "port_number": 0,
+                            "type": "ethernet"
+                        },
+                        {
+                            "interface": "br0",
+                            "name": "br0",
+                            "port_number": 1,
+                            "type": "ethernet"
+                        },
+                        {
+                            "interface": "enp7s0",
+                            "name": "enp7s0",
+                            "port_number": 2,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "remote_console_host": "",
+                    "remote_console_http_path": "/",
+                    "remote_console_port": 23,
+                    "remote_console_type": "none"
+                },
+                "symbol": ":/symbols/cloud.svg",
+                "template_id": "39e257dc-8412-3174-b6b3-0ee3ed6a43e9",
+                "width": 159,
+                "x": -35,
+                "y": -248,
                 "z": 1
             }
         ]
